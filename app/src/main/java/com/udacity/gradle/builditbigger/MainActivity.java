@@ -44,16 +44,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        String joke = JokeProvider.getAJoke();
-        Toast.makeText(this, joke, Toast.LENGTH_SHORT).show();
-        launchDisplayJokeActivity(joke);
+        new EndpointsAsyncTask().execute(this);
     }
 
-    private void launchDisplayJokeActivity(String joke) {
-        Intent displayJokeActivity = new Intent(this,DisplayJokeActivity.class);
-        displayJokeActivity.putExtra(DisplayJokeActivity.EXTRA_JOKE_TEXT,joke);
-        startActivity(displayJokeActivity);
-    }
+
 
 
 }

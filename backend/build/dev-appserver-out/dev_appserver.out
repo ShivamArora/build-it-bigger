@@ -1,0 +1,56 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Nov 01, 2018 12:25:48 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Shivam\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\Shivam\Desktop\UdacityProjects\build-it-bigger\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+Nov 01, 2018 12:25:48 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Oct 31, 2018 6:55:50 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (C:\Users\Shivam\Desktop\UdacityProjects\build-it-bigger\backend) is not equal to your 
+web application root (C:\Users\Shivam\Desktop\UdacityProjects\build-it-bigger\backend\build\exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Oct 31, 2018 6:55:51 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Oct 31, 2018 6:55:59 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@0.0.0.0:8080
+Oct 31, 2018 6:55:59 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Oct 31, 2018 6:55:59 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Nov 01, 2018 12:25:59 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Joke at index: 0 = Q: Why do birds fly south in the Fall? 
+
+ A: Because it's too far to walk.
+Joke at index: 1 = Forget about the past, you can't change it.
+
+Forget about the future, you can't predict it.
+
+Forget about the present, I didn't get you one.
+Joke at index: 4 = Guy: I'm sorry. I hate when we fight cuz I really like you too and wanna be with you too and everytime we fight I feel like I’m gonna make u lose all the feelings u have for me and I don’t want that cuz I like when you like me back.
+
+Girl: I love you too … But who are you?
+Joke at index: 2 = Q: Where do you find reindeer?
+
+A: It depends on where you leave them!
+Joke at index: 1 = Forget about the past, you can't change it.
+
+Forget about the future, you can't predict it.
+
+Forget about the present, I didn't get you one.
+Joke at index: 1 = Forget about the past, you can't change it.
+
+Forget about the future, you can't predict it.
+
+Forget about the present, I didn't get you one.
+Joke at index: 1 = Forget about the past, you can't change it.
+
+Forget about the future, you can't predict it.
+
+Forget about the present, I didn't get you one.
+Joke at index: 2 = Q: Where do you find reindeer?
+
+A: It depends on where you leave them!
+Joke at index: 2 = Q: Where do you find reindeer?
+
+A: It depends on where you leave them!

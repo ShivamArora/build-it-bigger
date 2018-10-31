@@ -30,4 +30,19 @@ dependencies {
     implementation 'javax.servlet:servlet-api:2.5'
     implementation 'com.google.api-client:google-api-client:1.25.0'
     implementation 'com.google.http-client:google-http-client-android:1.25.0'
+
+    //Add javajokes dependency
+    implementation  project(':javajokes')
+}
+
+appengine {
+
+    run {
+
+        host = "0.0.0.0"
+
+        port = 8080
+
+    }
+
 }
