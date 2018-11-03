@@ -3,6 +3,7 @@ package com.udacity.gradle.builditbigger;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.util.Pair;
 import android.widget.Toast;
 
@@ -16,6 +17,7 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 
 public class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
+    public static final String TAG = EndpointsAsyncTask.class.getSimpleName();
     private static MyApi myApiService = null;
     private Context context;
 
@@ -45,13 +47,13 @@ public class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         try {
             return myApiService.displayJoke().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            Log.e(TAG, "doInBackground: "+e.getMessage() );
+            return "";
         }
     }
 
     @Override
     protected void onPostExecute(String jokeText) {
-        Toast.makeText(context, jokeText, Toast.LENGTH_LONG).show();
         launchDisplayJokeActivity(context,jokeText);
     }
 

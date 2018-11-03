@@ -18,7 +18,6 @@ public class JokeProvider {
     public static String getAJoke(){
         Random random = new Random();
         int index = random.nextInt(jokes.length);
-        System.out.println("Joke at index: "+index+" = "+jokes[index]);
         return jokes[index];
     }
 }
